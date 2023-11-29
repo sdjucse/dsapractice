@@ -20,7 +20,7 @@ public class maxnestdepparent{
     public static void main(String args[]){
         maxnestdepparent m= new maxnestdepparent();
         String s="((())())";
-        int res= m.maxDepth(s);
+        int res=m.maxDepth(s);
         System.out.println(res);
     }
 }
